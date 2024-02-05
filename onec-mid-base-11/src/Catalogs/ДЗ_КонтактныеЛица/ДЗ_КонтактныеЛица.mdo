@@ -10,7 +10,7 @@
   <name>ДЗ_КонтактныеЛица</name>
   <synonym>
     <key>ru</key>
-    <value>Д з контактные лица</value>
+    <value>Контактные лица</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ДЗ_КонтактныеЛица.StandardAttribute.Code</inputByString>
@@ -73,10 +73,7 @@
       <value>Должность</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.ДЗ_РДолжности</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
